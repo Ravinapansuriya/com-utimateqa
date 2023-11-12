@@ -36,7 +36,7 @@ public class ComUtimateqa {
         //Print the current url.
         System.out.println(driver.getCurrentUrl());
         //Print the page source
-        //System.out.println(driver.getPageSource());
+        System.out.println(driver.getPageSource());
         //Click on sign in link
         driver.findElement(By.linkText("Sign In")).click();
         //Print the current url
